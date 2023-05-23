@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ExamenRonalM04Estilo.xsl"?>
+
+<!--Aqui vamos a validad de forma interna sin usar un fichero dtd externo
+    podriamos optar por un fichero externo despues de hacer esta pequeña
+    modificacion de validacion-->
+<!--Al modificar el dtd interno deci quedarme con el externo, es lo recomendable.
+    He decidido quedarme con el dtd externo que interno-->
+    <!DOCTYPE ronal SYSTEM "ronal.dtd">
+
+<ronal>
+<!-- Aqui tenemos la informacion personal de este alumno de Superior 
+     de ASIX-DAW( Administracio de Sistemes i Xarxe de 1R A) -->
+  <informacion_personal nombre="Ronal Jose" apellidos="Chipana Chacon" ciclo ="Administracion de Sistemas y Redes"/>
+  <modulos>
+    <!--Los modulos que añadi que son 5, 
+        dichos son estos: M01,M02,M03,M04 y M05-->
+    <!--Cada modulo contara con 3 UFs, dichas UFs con notas inventadas-->
+    <modulo nombre="M01">
+      <unidad_formativa nombre="UF1" nota="7" hores="10"/>
+      <unidad_formativa nombre="UF2" nota="6" hores="30"/>
+      <unidad_formativa nombre="UF3" nota="9" hores="26"/>
+    </modulo>
+    <modulo nombre="M02">
+      <unidad_formativa nombre="UF1" nota="5" hores="15"/>
+      <unidad_formativa nombre="UF2" nota="2" hores="20"/>
+      <unidad_formativa nombre="UF3" nota="7" hores="28"/>
+    </modulo>
+    <modulo nombre="M03">
+      <unidad_formativa nombre="UF1" nota="3" hores="40"/>
+      <unidad_formativa nombre="UF2" nota="2" hores="20"/>
+      <unidad_formativa nombre="UF3" nota="6" hores="27"/>
+    </modulo>
+    <modulo nombre="M04">
+      <unidad_formativa nombre="UF1" nota="7" hores="40"/>
+      <unidad_formativa nombre="UF2" nota="5" hores="20"/>
+      <unidad_formativa nombre="UF3" nota="8" hores="20"/>
+    </modulo>
+    <modulo nombre="M05">
+      <unidad_formativa nombre="UF1" nota="5" hores="40"/>
+      <unidad_formativa nombre="UF2" nota="7" hores="30" />
+      <unidad_formativa nombre="UF3" nota="8" hores="10"/>
+    </modulo>
+  </modulos>
+</ronal>

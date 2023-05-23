@@ -1,0 +1,20 @@
+<!ELEMENT portfoli (alumne, curs, moduls)>
+<!ELEMENT alumne (#PCDATA)>
+<!ELEMENT curs (centre, nom, data)>
+<!ELEMENT centre (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT moduls (modul*)>
+<!ELEMENT modul (nom, UFs)>
+<!ELEMENT UFs (UF1, UF2, UF3)>
+<!ELEMENT UF1 (nom, activitats)>
+<!ELEMENT activitats (activitat*)>
+<!ELEMENT activitat (#PCDATA | img)*>
+<!ELEMENT img EMPTY>
+<!ATTLIST img src CDATA #REQUIRED>
+<!ELEMENT UF2 (nom, activitats)>
+<!ELEMENT UF3 (nom, activitats)>
+
+<!ELEMENT UF1 (#PCDATA)>
+<!ELEMENT UF2 (#PCDATA)>
+<!ELEMENT UF3 (#PCDATA)>

@@ -12,50 +12,50 @@
         <!ELEMENT UFs (UF1|UF2|UF3)*>
         <!ELEMENT UF1 (nom|activitats)*>
         <!ELEMENT activitats (activitat)*>
-        <!ELEMENT activitat (img)*>
-        <!ELEMENT img (#PCDATA)>
+        <!ELEMENT activitat (#PCDATA|img)*>
+        <!ELEMENT img EMPTY>
         <!ATTLIST img
                 src CDATA #REQUIRED>
         <!ELEMENT UF2 (nom|activitats)*>
         <!ELEMENT UF3 (nom|activitats)*>
         ]>
 <portfoli>
-<alumne>Roger Arques Nolla</alumne>
-   <curs>
-      <centre>Institut Montsià</centre>
-      <nom>1 ASIX/DAW</nom>
-      <data>2022 - 2023</data>
-   </curs>
-   <moduls>
-      <modul>
-         <nom>M4</nom>
-         <UFs>
-            <UF1>
-               <nom>UF1: Programació amb XML</nom>
-               <activitats>
-                  <activitat>S'ha fet una pàgina en HTML estàtica sobre rutes en bicicleta pel delta de l'Ebre.
-                  <img src="/imatges/bicis.png"/></activitat>
-                  <activitat>S'ha fet un document XML amb informació sobre cotxes que posteriorment seran visibles an format Web a través d'un document XSL.
-                  <img src="/imatges/xslcotxes.png"/></activitat>
-               </activitats>
-            </UF1>
-            <UF2>
-               <nom>UF2: Àmbits d'aplicació de l'XML</nom>
-               <activitats>
-                  <activitat>S'han dut a terme exercicis per dur a terme consultes a un document XML amb XQuery i XPath. També s'ha estudiat el RSS.
-                  <img src="/imatges/xquery.png"/></activitat>
-                  <activitat>S'ha dut a terme un document XML amb el portfoli d'activitats realitzades al mòdul M4; aquestes dades del XML són visibles en format Web per mig d'un document XSL (el que veiem actualment).
-                  <img src="/imatges/portfoli.png"/></activitat>
-               </activitats>
-            </UF2>
-            <UF3>
-               <nom>UF3: Sistemes de Gestió d'informació empresarial</nom>
-               <activitats>
-                  <activitat>Implantació d'un ERP lliure (dolibarr)
-                  <img src="/imatges/dolibarr.png"/></activitat>
-               </activitats>
-            </UF3>
-         </UFs>
-      </modul>
-   </moduls>
+    <alumne>Ronal Chipana</alumne>
+    <curs>
+        <centre>Institut Montsià</centre>
+        <nom>1 ASIX/DAW</nom>
+        <data>2022 - 2023</data>
+    </curs>
+    <moduls>
+        <modul>
+            <nom>M04</nom>
+            <UFs>
+                <UF1>
+                    <nom>UF1: Programación con XML</nom>
+                    <activitats>
+                        <activitat>Se realizó en una página web en HTML en grupo tipo forum de unos videjuegos, y escogimos 3 juegos, en esa página web explicaremos en un menú de opciones tienes tres partes, lo cual en el inicio se hablará sobre, ¿Qué es Espai de Jocs?, en la siguiente opción se va a explicar los juegos con cada subpágina de dichos videojuegos y como última opción es la explicación de, ¿Quiénes somos?.
+                        <img src="/imatges/espaidejocs.png"/></activitat>
+                        <activitat>Luego nos han introducido en este tema que es el XML, XSL y HTML, claro en esta parte es una muestra sobre un fichero usando XSL para el estilo de la información en XML.
+                        <img src="/imatges/xsluf1.png"/></activitat>
+                    </activitats>
+                </UF1>
+                <UF2>
+                    <nom>UF2: Ámbitos de aplicación del XML</nom>
+                    <activitats>
+                        <activitat>En esta UF hemos realizado consultas en XPath como en XQuery usando la información de un fichero XML, no hay tanta diferencia pero si en su estructura XPath es algo más fácil de aprender que XQuery. Las consultas realizadas fueron hechas en una aplicación llamada BaseX y utilizando un fichero XML hemos podido realizar las consultas que nos pedía en el enunciado de la UF2 pero un caso.
+                        <img src="/imatges/xquery2.jpg"/></activitat>
+                        <activitat>Bueno finalizando con la UF2 y la última actividad que nos han pedido realizar en el módulo de M04, es usar una plantilla en HTML pero también transformándolo usando XSL como un formato de estilo y el XML aplicando la información de el HTML.
+                        <img src="/imatges/portafolioronal.png"/></activitat>
+                    </activitats>
+                </UF2>
+                <UF3>
+                    <nom>UF3: Sistemas de Gestión de información empresarial</nom>
+                    <activitats>
+                        <activitat>En esta UF lo que hemos tratado de realizar es un ERP/CRM, para gestionar productos y ventas para una empresa y se instaló en nuestro servidor y modificamos todo lo que se pidió en ese enunciado.
+                        <img src="/imatges/dolibarr2.jpg"/></activitat>
+                    </activitats>
+                </UF3>
+            </UFs>
+        </modul>
+    </moduls>
 </portfoli>
