@@ -3,7 +3,7 @@
     <xsl:template match="/portfoli">
         <html>
             <head>
-               <link rel="stylesheet" type="text/css" href="estils.css"/>
+               <link rel="stylesheet" type="text/css" href="m04.css"/>
             </head>
             <header>
             <h1>Portfoli d'activitats de l'alumne <xsl:value-of select="//alumne" /></h1>
