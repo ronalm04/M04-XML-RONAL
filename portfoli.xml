@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl" ?>
+<!DOCTYPE portfoli [
+        <!ELEMENT portfoli (alumne|curs|moduls)*>
+        <!ELEMENT alumne (#PCDATA)>
+        <!ELEMENT curs (centre|nom|data)*>
+        <!ELEMENT centre (#PCDATA)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT data (#PCDATA)>
+        <!ELEMENT moduls (modul)*>
+        <!ELEMENT modul (nom|UFs)*>
+        <!ELEMENT UFs (UF1|UF2|UF3)*>
+        <!ELEMENT UF1 (nom|activitats)*>
+        <!ELEMENT activitats (activitat)*>
+        <!ELEMENT activitat (img)*>
+        <!ELEMENT img (#PCDATA)>
+        <!ATTLIST img
+                src CDATA #REQUIRED>
+        <!ELEMENT UF2 (nom|activitats)*>
+        <!ELEMENT UF3 (nom|activitats)*>
+        ]>
+<portfoli>
+<alumne>Roger Arques Nolla</alumne>
+   <curs>
+      <centre>Institut Montsià</centre>
+      <nom>1 ASIX/DAW</nom>
+      <data>2022 - 2023</data>
+   </curs>
+   <moduls>
+      <modul>
+         <nom>M4</nom>
+         <UFs>
+            <UF1>
+               <nom>UF1: Programació amb XML</nom>
+               <activitats>
+                  <activitat>S'ha fet una pàgina en HTML estàtica sobre rutes en bicicleta pel delta de l'Ebre.
+                  <img src="/imatges/bicis.png"/></activitat>
+                  <activitat>S'ha fet un document XML amb informació sobre cotxes que posteriorment seran visibles an format Web a través d'un document XSL.
+                  <img src="/imatges/xslcotxes.png"/></activitat>
+               </activitats>
+            </UF1>
+            <UF2>
+               <nom>UF2: Àmbits d'aplicació de l'XML</nom>
+               <activitats>
+                  <activitat>S'han dut a terme exercicis per dur a terme consultes a un document XML amb XQuery i XPath. També s'ha estudiat el RSS.
+                  <img src="/imatges/xquery.png"/></activitat>
+                  <activitat>S'ha dut a terme un document XML amb el portfoli d'activitats realitzades al mòdul M4; aquestes dades del XML són visibles en format Web per mig d'un document XSL (el que veiem actualment).
+                  <img src="/imatges/portfoli.png"/></activitat>
+               </activitats>
+            </UF2>
+            <UF3>
+               <nom>UF3: Sistemes de Gestió d'informació empresarial</nom>
+               <activitats>
+                  <activitat>Implantació d'un ERP lliure (dolibarr)
+                  <img src="/imatges/dolibarr.png"/></activitat>
+               </activitats>
+            </UF3>
+         </UFs>
+      </modul>
+   </moduls>
+</portfoli>
