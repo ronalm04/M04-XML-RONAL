@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+    img {
+      float: left;
+    }
+    h1 {
+      padding-left: 100px;
+      color: white;
+    }
+
+    .vertical-pag {
+      width: 20%;
+      float: left;
+      padding-top: 20px;
+      padding-right: 20px;
+      text-align: left;
+    }
+    .clock  {
+      float: right;
+      width: 100%
+
+    }
+    .vertical-pag a {
+      background-color: gray;
+      color: black;
+      display: block;
+      padding: 10px;
+    }
+
+    .RecuadreNegre {
+      background-color: black;
+      width: 100%;
+      height: 75px;
+      border: 1px solid black;
+    }
+
+    .RecuadreGroc {
+      padding-left: 20px;
+      background-color: khaki;
+      width: 60%;
+      height: 400px;
+      float: left;
+      border: 1px solid black;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+    footer{
+      text-align: center;
+      background-color: cyan;
+      position: absolute;
+      bottom: 0;
+      width: 99%;
+      height: 20px;
+      color: white;
+  }
+
+  @media (max-width: 800px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .RecuadreGroc{
+      order: 1;
+      width: 90%
+    }
+
+    .vertical-pag{
+      order: 2;
+      width: 95%
+    }
+
+    footer{
+      order: 3;
+      width: 95%
+    }
+
+    .clock{
+      order: 4;
+      width: 100%
+    }
+  }
