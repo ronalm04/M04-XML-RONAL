@@ -10,10 +10,10 @@
       </head>
       <header>
         <h1>Portfolio de activades del alumno Ronal Chipana</h1>
-        <a class="next-button" href="/portfoli.xml">opcion3</a>
-        <a class="next-button" href="/">opcion2</a>
-        <a class="next-button" href="/UF1 EXAMEN ASIX M04/Pagines/Inici.html">opcion1</a>
-        <a class="next-button" href="/index.html">inicio</a>
+        <a class="next-button" href="/M04-XML-RONAL/portfoli.xml">opcion3</a>
+        <a class="next-button" href="/M04-XML-RONAL/UF2- XML-XSL/ExamenRonalM04.xml">opcion2</a>
+        <a class="next-button" href="/M04-XML-RONAL/UF1 EXAMEN ASIX M04/Pagines/Inici.html">opcion1</a>
+        <a class="next-button" href="/M04-XML-RONAL/index.html">inicio</a>
       </header>
       <body>
         <div class="container">
