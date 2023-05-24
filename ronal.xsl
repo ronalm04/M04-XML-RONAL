@@ -9,7 +9,7 @@
         <link rel="icon" type="images/jpg" href="imatges/pestaña1.jpeg" />
       </head>
       <header>
-        <h1>Portfolio de activades del alumno Ronal Chipana</h1>
+        <h1>Portafolio de activades del alumno Ronal Chipana</h1>
         <a class="next-button" href="/M04-XML-RONAL/portfoli.xml">opcion3</a>
         <a class="next-button" href="/M04-XML-RONAL/UF2- XML-XSL/ExamenRonalM04.xml">opcion2</a>
         <a class="next-button" href="/M04-XML-RONAL/UF1 EXAMEN ASIX M04/Pagines/Inici.html">opcion1</a>
